@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp"
+    android:layout_marginBottom="50dp"
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:elevation="10dp"
+        android:background="#F3F3F3"
+        android:layout_marginBottom="10dp"
+        >
+        <TextView
+            android:id="@+id/cardTextId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="card Text"
+            android:layout_gravity="start"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/firasansbook"
+            android:elevation="3dp"
+            android:layout_marginBottom="15dp"/>
+
+        <ImageView
+            android:id="@+id/cardImageViewId"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="10dp"
+            android:scaleType="fitXY"
+            android:elevation="5dp"/>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

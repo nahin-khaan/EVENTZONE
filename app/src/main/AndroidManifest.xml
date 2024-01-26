@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/applogo"
+        android:usesCleartextTraffic="true"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/applogo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EVENTZONE"
+        tools:targetApi="31">
+        <activity
+            android:name=".Payement"
+            android:exported="false" />
+        <activity
+            android:name=".Payment"
+            android:exported="false"
+            android:label="@string/title_activity_payment"
+            android:theme="@style/Theme.EVENTZONE" />
+        <activity
+            android:name=".Payments"
+            android:exported="false" />
+        <activity
+            android:name=".EventDetails"
+            android:exported="false" />
+        <activity
+            android:name=".SoundDecorator"
+            android:exported="false" />
+        <activity
+            android:name=".MakeupDecorator"
+            android:exported="false" />
+        <activity
+            android:name=".InviteDecorator"
+            android:exported="false" />
+        <activity
+            android:name=".CarDecorator"
+            android:exported="false" />
+        <activity
+            android:name=".VenueDecorator"
+            android:exported="false" />
+        <activity
+            android:name=".VideoDecorator"
+            android:exported="false" />
+        <activity
+            android:name=".SoundCategoryCreate"
+            android:exported="false" />
+        <activity
+            android:name=".MakeupCategoryCreate"
+            android:exported="false" />
+        <activity
+            android:name=".InviteCategoryCreate"
+            android:exported="false" />
+        <activity
+            android:name=".CarrentCategoryCreate"
+            android:exported="false" />
+        <activity
+            android:name=".VenueCategoryCreate"
+            android:exported="false" />
+        <activity
+            android:name=".VideoCategoryCreate"
+            android:exported="false" />
+        <activity
+            android:name=".FoodDecorator"
+            android:exported="false" />
+        <activity
+            android:name=".FoodCategoryCreate"
+            android:exported="false" />
+        <activity
+            android:name=".EVENTCREATE"
+            android:exported="false" />
+        <activity
+            android:name=".StageCategoryCreate"
+            android:exported="false" />
+        <activity
+            android:name=".StageDecorator"
+            android:exported="false" />
+        <activity
+            android:name=".StageDecorate"
+            android:exported="false" />
+        <activity
+            android:name=".PostList"
+            android:exported="false" />
+        <activity
+            android:name=".CreatePost"
+            android:exported="false"
+            android:label="@string/title_activity_create_post"
+            android:theme="@style/Theme.EVENTZONE" />
+        <activity
+            android:name=".CreateEvent"
+            android:exported="false" />
+        <activity
+            android:name=".SoundLight"
+            android:exported="false" />
+        <activity
+            android:name=".PlaceVenue"
+            android:exported="false" />
+        <activity
+            android:name=".InvitationCard"
+            android:exported="false" />
+        <activity
+            android:name=".CarRentar"
+            android:exported="false" />
+        <activity
+            android:name=".VideoGrapher"
+            android:exported="false" />
+        <activity
+            android:name=".MakeupArtist"
+            android:exported="false" />
+        <activity
+            android:name=".CateringFood"
+            android:exported="false"
+            android:label="@string/title_activity_catering_food"
+            android:theme="@style/Theme.EVENTZONE" />
+        <activity
+            android:name=".EventLists"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SignUpAs"
+            android:exported="false" />
+        <activity
+            android:name=".SignUp"
+            android:exported="false" />
+        <activity
+            android:name=".CategorySelect"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".ForgotPassword"
+            android:exported="false" />
+        <activity
+            android:name=".About"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

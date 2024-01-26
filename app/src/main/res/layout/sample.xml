@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#FCFDFF"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="10dp"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/imageDetailsId"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:elevation="5dp"
+            android:background="@color/feild"
+            android:src="@drawable/ic_launcher_foreground"/>
+        <TextView
+            android:id="@+id/tittleDetailsId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="     \tDj party"
+            android:textSize="17sp"
+            android:fontFamily="@font/firasansbold"
+            android:drawableLeft="@drawable/tittle_ic"
+            android:layout_marginBottom="5dp"/>
+        <TextView
+            android:id="@+id/categoryDetailsId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="      Category of the event"
+            android:textSize="13sp"
+            android:fontFamily="@font/firasansbook"
+            android:drawableLeft="@drawable/cate_ic"
+            android:layout_marginBottom="15dp"/>
+        <TextView
+            android:id="@+id/descriptionDetailsId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="      Description of the Event"
+            android:textSize="13sp"
+            android:fontFamily="@font/firasansbook"
+            android:drawableLeft="@drawable/details_ic"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/locationDetailsId"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/feild"
+            android:text="      Location of this event"
+            android:textSize="13sp"
+            android:fontFamily="@font/firasansbook"
+            android:drawableLeft="@drawable/loacation_ic"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/dateDetailsId"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/feild"
+            android:text="      Date of this event"
+            android:textSize="13sp"
+            android:fontFamily="@font/firasansbook"
+            android:drawableLeft="@drawable/calendar_ic"
+            android:layout_marginBottom="5dp"/>
+        <TextView
+            android:id="@+id/priceDetailsId"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/feild"
+            android:text="      Price of this event"
+            android:textSize="13sp"
+            android:fontFamily="@font/firasansbook"
+            android:drawableLeft="@drawable/taka_ic"
+            android:layout_marginBottom="5dp"/>
+        <TextView
+            android:id="@+id/phoneDetailsId"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/feild"
+            android:text="      Phone of this event"
+            android:textSize="13sp"
+            android:fontFamily="@font/firasansbook"
+            android:drawableLeft="@drawable/call_ic"
+            android:layout_marginBottom="5dp"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

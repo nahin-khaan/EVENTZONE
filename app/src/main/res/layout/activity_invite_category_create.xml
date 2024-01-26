@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".InviteCategoryCreate">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <ImageView
+
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:src="@drawable/createevent" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Create Event"/>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/tittleEditId"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/navbottom_shape"
+        android:drawableLeft="@drawable/tittle_ic"
+        android:elevation="3dp"
+        android:hint="Enter event tittle"
+        android:textSize="13sp" />
+
+    <Spinner
+        android:id="@+id/categorySpinId"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/navbottom_shape"
+        android:elevation="3dp"
+        android:hint="Enter category"
+        android:textSize="13sp"
+
+        />
+
+    <EditText
+        android:id="@+id/descriptionEditId"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/navbottom_shape"
+        android:drawableLeft="@drawable/details_ic"
+        android:elevation="3dp"
+        android:hint="Enter description"
+        android:textSize="13sp" />
+
+    <Spinner
+        android:id="@+id/locationSpinId"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/navbottom_shape"
+        android:elevation="3dp"
+        android:hint="Enter loaction"
+        android:textSize="13sp" />
+
+    <EditText
+        android:id="@+id/dateEditId"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/navbottom_shape"
+        android:drawableLeft="@drawable/calendar_ic"
+        android:elevation="3dp"
+        android:hint="Enter date"
+        android:textSize="13sp" />
+
+    <EditText
+        android:id="@+id/priceEditId"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/navbottom_shape"
+        android:drawableLeft="@drawable/taka_ic"
+        android:elevation="3dp"
+        android:hint="Enter price"
+        android:textSize="13sp" />
+
+    <EditText
+        android:id="@+id/phoneEditId"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/navbottom_shape"
+        android:drawableLeft="@drawable/call_ic"
+        android:elevation="3dp"
+        android:hint="Enter phone"
+        android:textSize="13sp" />
+
+    <ImageButton
+        android:id="@+id/uploadImgBtn"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:elevation="3dp"
+        android:scaleType="fitCenter"
+
+        android:src="@drawable/uploadphoto" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/addEventId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/buttoncolor"
+        android:text="Add Event" />
+
+    <ImageView
+        android:id="@+id/uploadImgShows"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/ic_launcher" />
+
+
+</LinearLayout>

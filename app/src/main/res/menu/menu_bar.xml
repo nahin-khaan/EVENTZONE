@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/createevents"
+            android:icon="@drawable/event_ic"
+            android:title="Create Event" />
+
+        <item
+            android:id="@+id/createposts"
+            android:icon="@drawable/postic"
+            android:title="Create Post" />
+        <item
+            android:id="@+id/abouts"
+            android:icon="@drawable/infoapp_ic"
+            android:title="About" />
+        <item
+            android:id="@+id/share"
+            android:icon="@drawable/share_ic"
+            android:title="Share App" />
+        <item
+            android:id="@+id/payment"
+            android:icon="@drawable/payment"
+            android:title="Payment" />
+
+        <item
+            android:id="@+id/changePassword"
+            android:icon="@drawable/changepass_ic"
+            android:title="Change Password" />
+
+
+    </group>
+    <item android:title="Sign Out Option">
+        <menu>
+            <item
+                android:id="@+id/logouts"
+                android:icon="@drawable/logout_ic"
+                android:title="Log Out" />
+
+        </menu>
+    </item>
+
+
+</menu>

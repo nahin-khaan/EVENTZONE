@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "835267263084",
+    "project_id": "eventzone-7d69a",
+    "storage_bucket": "eventzone-7d69a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:835267263084:android:4f455948c56999cd243649",
+        "android_client_info": {
+          "package_name": "com.example.eventzone"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgTck-cBI4VxmbTyoLAI5j0RnCPasOhiQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

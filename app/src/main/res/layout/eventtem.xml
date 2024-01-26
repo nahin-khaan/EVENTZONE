@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:layout_weight="2"
+    android:background="@drawable/view_field"
+    android:elevation="13dp"
+    android:padding="5dp"
+    android:id="@+id/liniarId"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tittleItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TITTLE"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/categoryItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CATEGORY"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/descriptionItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DESCRIPTION"
+            android:textSize="12dp"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/locationItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LOCATION"
+            android:textSize="12dp"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/dateItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DATE"
+            android:textSize="12dp"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/priceItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PRICE"
+            android:textSize="12dp"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/phoneItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PHONE"
+            android:textSize="12dp"
+            android:layout_marginBottom="5dp"/>
+    </LinearLayout>
+
+    <ImageView
+
+        android:id="@+id/imgItem"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_launcher_background" />
+
+
+</LinearLayout>
